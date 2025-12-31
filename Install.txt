@@ -1,0 +1,5 @@
+1.	Create a Git Hub repository.
+2.	Create a repository 
+3.	Install Git.
+4.	Once installation is complete, go to the command terminal and type ‘git’. You should see relevant commands being populated. It means the installation is successful.
+5.	Configure Git with your username & email

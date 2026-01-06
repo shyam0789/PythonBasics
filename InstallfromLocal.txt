@@ -1,0 +1,21 @@
+Git is a Version Control System (Just like TFS). Git is a like a software which lives on our local machine. It doesn’t need to be online. Whereas GitHub is like a google drive which stores the Git projects online. Through Github, it helps us to share the code with others.
+Main purpose of Git is to maintain versions for the code in local. GitHub’s purpose is to mainly share and collaborate the code. GitHub can be replaced with Bitbucket on top of Git.
+https://www.youtube.com/watch?v=r8jQ9hVA2qs&list=PL0lo9MOBetEFcp4SCWinBdpml9B2U25-f
+https://www.youtube.com/watch?v=VIBWdLLq9kQ
+
+CONFIGURE GIT:
+1.	Create a Git Hub repository.
+
+Email: shyamsundar.1989@gmail.com
+2.	Create a repository
+3.	Install Git.
+4.	Once installation is complete, go to the command terminal and type ‘git’. You should see relevant commands being populated. It means the installation is successful.
+5.	Configure Git with your username & email
+C:\Users\DELL>git config --global user.name "shyam0789"
+C:\Users\DELL>git config --global user.email shyamsundar.1989@gmail.com
+6.	Create a small .txt file within GitHub repository.
+7.	Now our intention is to clone the repo. i.e. to bring in the files from the GitHub repository to one of our local folders.
+8.	Open the terminal and navigate to that local folder. Copy the Origin URL (Code -> copy the HTTPs URL) and issue the below command in the terminal. (PythonBasics\Install.txt is cloned from GitHub to our local).
+
+
+9.	Now we are trying the reverse. i.e. create a file locally and then try moving that to the GitHub. When we create a file in our local, it will remain in the Working Directory (Status of that file will be Untracked). And the file which is already within the GitHub will remain in the Git Folder. When we clone that already available file, it will be in 2 copies (Git Folder & Working Directory). Now whatever file we are creating locally (within working directory) will have to be moved to Git Folder and then pushed to GitHub.
